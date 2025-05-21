@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalSettingApp.Core", "GoalSettingApp.Core\GoalSettingApp.Core.csproj", "{8FAEDFFD-7230-40AE-AD0F-A72D0E603F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalSettingApp.Infrastructure", "GoalSettingApp.Infrastructure\GoalSettingApp.Infrastructure.csproj", "{D9023563-4D0B-4E0C-B372-93B777D94C29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalSettingApp.Web", "GoalSettingApp.Web\GoalSettingApp.Web.csproj", "{5AF7427A-946E-4A34-80DE-12A63DDB0B99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalSettingApp.SharedKernel", "GoalSettingApp.SharedKernel\GoalSettingApp.SharedKernel.csproj", "{3486337C-EE86-478D-BD96-1A69C050B33A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalSettingApp.Tests", "GoalSettingApp.Tests\GoalSettingApp.Tests.csproj", "{3CDCC28A-DE6B-4AA9-838D-5F541E590C97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FAEDFFD-7230-40AE-AD0F-A72D0E603F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAEDFFD-7230-40AE-AD0F-A72D0E603F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAEDFFD-7230-40AE-AD0F-A72D0E603F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAEDFFD-7230-40AE-AD0F-A72D0E603F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9023563-4D0B-4E0C-B372-93B777D94C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9023563-4D0B-4E0C-B372-93B777D94C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9023563-4D0B-4E0C-B372-93B777D94C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9023563-4D0B-4E0C-B372-93B777D94C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF7427A-946E-4A34-80DE-12A63DDB0B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF7427A-946E-4A34-80DE-12A63DDB0B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF7427A-946E-4A34-80DE-12A63DDB0B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF7427A-946E-4A34-80DE-12A63DDB0B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3486337C-EE86-478D-BD96-1A69C050B33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3486337C-EE86-478D-BD96-1A69C050B33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3486337C-EE86-478D-BD96-1A69C050B33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3486337C-EE86-478D-BD96-1A69C050B33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDCC28A-DE6B-4AA9-838D-5F541E590C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDCC28A-DE6B-4AA9-838D-5F541E590C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDCC28A-DE6B-4AA9-838D-5F541E590C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDCC28A-DE6B-4AA9-838D-5F541E590C97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
